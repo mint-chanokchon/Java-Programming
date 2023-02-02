@@ -11,3 +11,7 @@
 	# javac 
 	เป็น Conpiler ของ Java
 		- main.java -> javac -> main.class
+
+	# String args[]
+	ใช้สำหรับรับ arguments จาก command และสามารถเข้าถึงข้อมูลได้ผ่าน index
+	เช่น java Main.java test1 test2 

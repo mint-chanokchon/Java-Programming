@@ -1,7 +1,9 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String args[]) {
-        System.out.println("Hello World");
-        System.out.println(args[0]);
-        System.out.println(args[1]);
+        Scanner s = new Scanner(System.in);
+        boolean a = s.hasNextInt();
+        System.out.println(a);
     }
 }

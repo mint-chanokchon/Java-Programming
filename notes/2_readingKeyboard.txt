@@ -1,0 +1,25 @@
+
+    # System.in
+    ใช้สำหรับรับค่าจาก keyboard
+
+    # class Scanner 
+    ใช้สำหรับการอ่านข้อมูลจากแหล่งต่าง ๆ เช่น จาก keyboard
+    โดนจะอยู่ใน package util
+    Method: 
+        > nextInt()
+            - อ่านค่าเลขจำนวนเต็มจากคีย์บอร์ด
+        > nextFloat()
+            - อ่านค่าเลขจำนวนทศนิยมจากคีย์บอร์ด
+        > nextDouble()
+            - อ่านค่าเลขจำนวนทศนิยมจากคีย์บอร์ด
+        > next()
+            - อ่านค่าตัวอักษรจากคีย์บอร์ด (เจอเว้นวรรคจะจบการทำงาน)
+        > nextLine()
+            - อ่านแบบทั้งบรรทัดจากคีบอร์ด
+        > nextByte()
+        > nextShort()
+        > nextLong()
+        > nextBoolean()
+        > hasNextInt()
+            - ใช้สำหรับดูว่า input ที่รับเข้ามาเป็น int หรือไม่ โดยจะ return เป็น ture/false
+        > hasNextFloat
