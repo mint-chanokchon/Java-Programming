@@ -1,0 +1,13 @@
+	# JDK ( Java Development Kid )
+	เป็นเครื่องมือที่ใช้ในการพัฒนาโปรแกรม Java
+ 
+	# JRE ( Java Runtime Environment )
+	เป็นส่วนหนึ่งของ JDK โดยด้านใน JRE จะมี class library ของ Java และ JVM
+
+	# JVM ( Java Virtual Machine )
+	 การสร้างสภาวะแวดล้อมจำลองขึ้นมาบนระบบ เพื่อให้ application ที่เขียนด้วย java programming สามารถทำงานได้สมบูรณ์
+	โดยไม่ต้องคำนึงถึงเรื่อง hardware หรือ สถาปัตยกรรม ที่ใช้งานอยู่
+
+	# javac 
+	เป็น Conpiler ของ Java
+		- main.java -> javac -> main.class
