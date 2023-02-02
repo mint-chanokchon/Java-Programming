@@ -15,3 +15,14 @@
 	# String args[]
 	ใช้สำหรับรับ arguments จาก command และสามารถเข้าถึงข้อมูลได้ผ่าน index
 	เช่น java Main.java test1 test2 
+
+	### คำสั่ง
+
+	# javac 
+	ใช้สำหรับแปรง .java เป็น .class
+
+	# javap
+	ใช้สำหรับดูว่าใน package มี method อะไรบ้าง
+
+	# java
+	ใช้สำหรับรันไฟล์ java
