@@ -1,0 +1,25 @@
+
+    โดยปกติแล้วโปรแกรมจะมีการจัดเก็บข้อมูลชั่วคราวไว้ (ไม่ได้เก็บลงใน Hdd, Ssd)
+    โดยเราจะจัดเก็บข้อมูลเหล่านั้นไว้ในสิ่งที่เรียกว่า variable
+
+    # Primitive Data type
+    เป็น data type พื้นฐานในภาษา Java ที่สร้างขึ้นโดย Compiler เช่น
+
+        { size: byte }
+        > Integer 
+        ตัวเลขไม่มีทศนิยม
+            - byte      { size: 1, exam: 0 }
+            - short     { size: 2, exam: 0 }
+            - int       { size: 4, exam: 0 }
+            - long      { size: 8, exam: 0 }
+
+        > Floating Point
+        ตัวเลขมีทศนิยม
+            - float     { size: 4, exam: 0.0f }
+            - double    { size: 8, exam: 0.0d }
+
+        > Char          { size: 2, exam: \u0000 }
+        เป็นการจัดเก็บ charactor ซึ่งเป็น Unicode ทำให้รองรับภาษาทุกภาษา ( ASCII จะรองรับแค่ภาษาอังกฤษ )
+
+        > Boolean       { size: ~1, exam: true }
+        เป็นการจัดเก็บค่าจริงเท็จ ใช้ขนาดเกือบ 1 byte
