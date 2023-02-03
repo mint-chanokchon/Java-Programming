@@ -1,0 +1,24 @@
+### Operator
+	-> +
+	-> -
+	-> *
+	-> /
+	-> %
+
+# Arithmetic
+	-> *, /, %
+	-> +, -
+	
+# Bitwise
+	&, |, ~, ^, <<, >>, >>>
+	
+# Logical
+	-> &&
+	-> ||
+	-> !
+	
+# 
+	byte 	+ 	byte		-> int 
+	byte 	+ 	short		-> int
+	short 	+ 	int			-> int
+	int 	+ 	float		-> float ( compiler จะ convert int เป็น float ก่อน )
