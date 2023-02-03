@@ -1,0 +1,6 @@
+
+    # System.out.printf(string, args)
+        - %d    -> สำหรับแสดงข้อมูล integer
+        - %f    -> สำหรับแสดงข้อมูล float, double
+        - %c    -> สำหรับแสดงข้อมูล char
+        - %s    -> สำหรับแสดงข้อมูล string
