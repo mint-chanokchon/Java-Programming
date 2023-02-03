@@ -19,7 +19,10 @@
 	### คำสั่ง
 
 	# javac 
-	ใช้สำหรับแปรง .java เป็น .class
+	ใช้สำหรับแปรง .java เป็น .class (machine code)
+
+	# java 
+	เรียกใช้ JVM ให้ดำเนินการโปรแกรม
 
 	# javap
 	ใช้สำหรับดูว่าใน package มี method อะไรบ้าง
