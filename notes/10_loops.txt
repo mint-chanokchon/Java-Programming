@@ -1,0 +1,19 @@
+
+    # while
+    ตรวจสอบเงื่อนไขก่อนการประมวลผล
+    while (condition) {
+        // process
+    }
+
+    # do while
+    ประมวลผลก่อน แล้วค่อยตรวจสอบเงื่อนไข
+    do {
+        // process
+    } while (condition)
+
+    # for
+    for (condition) {
+
+    }
+
+    # foreach
