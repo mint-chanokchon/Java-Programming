@@ -1,0 +1,35 @@
+
+    string เป็น collecton ของ charactors เพื่อนำมาสร้างคำหรือประโยคน์
+
+    String str = "Hello World";
+    str -> ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']
+
+    โดย string จะอยู่ในรูปแบบของ Reference
+    คือจะเก็บตำแหน่งใน memory ที่ชื้ไปหาตัวอักษรนั้นแทน
+
+    # class String
+    สามารถแปรง char[], byte[], string เป็น string ได้
+
+    # String methods
+        > int length()
+            - หาความยาวของ string
+        > string toLowerCase()
+            - เปลี่ยนตัวอักษรให้เป็นตัวพิมเล็ก
+        > string toUpperCase()
+            - เปลี่ยนตัวอักษรให้เป็นตัวพิมใหญ่
+        > string trim() 
+            - ลบช่องว่างซ้ายขวาออก
+        > string substring()
+            - substring(begin) ตัด string โดยเริ่มต้นที่ index ที่ระบุไปจนสุด
+            - substring(begin, end) ตัด string โดยเริ่มต้นที่ index และสิ้นสุดที่ end index ที่ระบุ
+        > string replace()
+            - replace(old, new) แทนที่ oldChar ด้วย newChar
+        > bool startsWith()
+        > bool endsWith()
+        > char charAt()
+        > int indexOf()
+        > int lastIndexOf()
+        > bool equals()
+        > bool equalsIgnoreCase()
+        > int compareTo()
+        > string valueOf()
