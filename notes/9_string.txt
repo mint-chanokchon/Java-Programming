@@ -10,6 +10,13 @@
     # class String
     สามารถแปรง char[], byte[], string เป็น string ได้
 
+    String str1 = "java";
+    String str2 = "java";
+    String str3 = new String("Java");
+
+    str1 และ str2 จะชี้ไปที่ตำแหน่งเดียวกัน
+    str3 จะถูกสร้าง object ขึั้นมาใหม่เพราะเราสั่ง new instance ของ string ใหม่
+
     # String methods
         > int length()
             - หาความยาวของ string
@@ -25,11 +32,24 @@
         > string replace()
             - replace(old, new) แทนที่ oldChar ด้วย newChar
         > bool startsWith()
+            - ตรวจสอบ string ว่าขึ้นต้นด้วยคำที่ระบุหรือไม่
         > bool endsWith()
+            - ตรวจสอบ string ว่าลงท้ายด้วยคำที่ระบุหรือไม่
         > char charAt()
+            - ดึง charactor ใน index ที่เราระบุ
         > int indexOf()
+            - รับ index ของ charactor ใน string โดยจะไล่จากซ้ายไปขวาและเมื่อเจอตัวแรกก็จะอยู่ทำงานทันที
         > int lastIndexOf()
+            - รับ index ของ charactor ใน string โดยจะไล่จากขวาไปซ้ายและเมื่อเจอตัวแรกก็จะอยู่ทำงานทันที
         > bool equals()
+            - ตรวจว่า string ทั้งคู่กับค่าเท่ากันหรือไม่
         > bool equalsIgnoreCase()
         > int compareTo()
+            - เปรียบเทียบระยะห่างของข้อความ ตามลำดับการจัดเรียงตัวอักษรและตัวเลข โดยนับจากตัวแรกใน string
         > string valueOf()
+        > string repeat()
+            - ทำซ้ำตามจำนวนที่ระบุ
+        > bool contains()
+            - ตรวจสอบว่าใน string มีคำที่ระบุหรือไม่
+        > string concat()
+            - นำ string 2 ตัวมาต่อกัน
