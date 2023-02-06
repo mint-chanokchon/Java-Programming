@@ -1,0 +1,12 @@
+
+    # Array เป็นชุดของข้อมูลตามชนิดข้อมูลที่เราระบุ
+        - ส่วนประกอบของ Array    ->  dataType variableName[] = new dataType[capacity];
+        - variableName[]        ->  สิ่งนี้จะเป็น referance ของ array โดยเก็บที่อยู่เพื่ออ้างอิงไปหา object ใน heap
+        - dataType[capacity]    ->  สิ่งที่เรียกว่า object ของ array
+        - ทุก ๆ array object  ที่ถูกสร้างขึ้นใน Java จะถูกสร้างไว้ใน 
+        - Heap ทำหน้าที่เป็นส่วนของตัวแปร java object (อ้างอิง: https://saixiii.com/what-is-java-heap-memory/ )
+        - เมื่อทำการสร้าง array เปล่า ๆ มันจะไม่ได้ว่าง แต่จะเก็บ default value ของ dataType นั้นไว้
+
+    # วิธีคำนวนว่า array นั้นกิน memory เท่าไหร่
+        - capacity * byte = result
+        - เช่น int x[] = new int[5]  ->  int เก็บ byte = 4    ->  5 * 4 = 20 bytes
