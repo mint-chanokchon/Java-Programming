@@ -1,0 +1,16 @@
+
+    # dataType[][] name = new dataType[capacity][capacity]
+
+    # Example
+    int[][] x = new int[3][4];
+    [[0, 0, 0, 0],
+     [0, 0, 0, 0],
+     [0, 0, 0, 0]]
+
+     # jagged array คือ array 2 มิติที่มิติที่ 2 มีขนาดไม่เท่ากัน
+     เช่น
+        [
+            [0, 0, 0],
+            [0, 0],
+            [0, 0, 0, 0]
+        ]
