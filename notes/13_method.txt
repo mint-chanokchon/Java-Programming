@@ -1,0 +1,35 @@
+
+    # Monolithic Program
+    เป็นการเขียนฟังก์ชันการทำงานไว้ใน program เดียว
+
+    # Module Program
+    เป็นการแยกการทำงานต่าง ๆ ออกเป็น module เล็ก ๆ แล้วค่อยรวบรวมเข้าไปที่ main module
+
+    # Class Program
+    ซอฟแวร์เริ่มมีการรเขียนที่เยอะขึ้น เป็นมันโค้ดเป็นล้านบรรทัด ทำให้ยากต่อการจัดการ
+    เราจึงได้สร้าง class ขึ้นมาแทน module 
+    โดย class อาจเกิดขึ้นมาเพื่อรสบรวมวิธีการบางอย่างในการจัดการกับข้อมูล
+    เช่น
+
+    class User {
+        User user;
+
+        ctor()
+
+        create()
+        read()
+        update()
+        delete()
+    }
+    class ที่ใช้ในการจัดการกับข้อมูลของ user โดยสามารถ สร้าง, เรียกดู, แก้ไข, ลบ ข้อมูลของ user ได้
+
+    # method คืออะไร
+    สิ่งที่จัดการขั้นตอนการทำงานบางอย่างออกเป็นส่วน ๆ
+
+    # รูปแบบ 
+    returnType methodName(parameters) {
+        // do someting
+    }
+    
+    # ถ้าส่ง Primitive type หรือ object เข้าไปใน parameters มันจะทำการ copy value จากข้อมูลต้นทางเข้าไปใส่ใน parameters
+    # ถ้าส่ง Referrence type เข้าไปใน parameters มันจะชี้ไปยังตำแหน่งเดียวกับกับข้อมูลบทแรมแทน
