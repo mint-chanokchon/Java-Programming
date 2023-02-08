@@ -33,3 +33,11 @@
     
     # ถ้าส่ง Primitive type หรือ object เข้าไปใน parameters มันจะทำการ copy value จากข้อมูลต้นทางเข้าไปใส่ใน parameters
     # ถ้าส่ง Referrence type เข้าไปใน parameters มันจะชี้ไปยังตำแหน่งเดียวกับกับข้อมูลบทแรมแทน
+
+    # Overloading method
+    เป็น method ที่มีชื่อเหมือนกัน แต่รับ parameters ต่างกัน
+        > ตัวอย่าง
+            - int max(int x, int y)
+            - float max(float x, float y)
+    โดยปกติจะใช้กับ method ที่มีการทำงานเหมือนกัน ได้ผลลัพท์เหมือนกัน แต่อาจมี data type ต่างกัน 
+    หีือจำนวน parameters ต่างกัน

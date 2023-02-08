@@ -1,17 +1,19 @@
 public class Method {
     public static void main(String[] args) {
         int a = 10, b = 15;
-        max(a, b);
+        byte c = 10, d = 15;
+        System.out.println(max(a, b));
+        System.out.println(max(c, d));
+        System.out.println(max(10.67f, 15.33f));
 
-        int[] c = { 2, 4, 6, 8, 10 };
-        change(c, 2, 20);
+        // int[] c = { 2, 4, 6, 8, 10 };
+        // change(c, 2, 20);
 
-        int x = 10;
-        change2(x, 20);
+        // int x = 10;
+        // change2(x, 20);
 
-        String e = "Hello ";
-        change3(e);
-        System.out.println(e);
+        // String e = "Hello ";
+        // change3(e);
     }
 
     static void change3(String x) {
@@ -27,10 +29,14 @@ public class Method {
     }
 
     static int max(int x, int y) {
-        if (x > y) {
-            return x;
-        } else {
-            return y;
-        }
+        return (x > y) ? x : y;
     }
+
+    static float max(float x, float y) {
+        return (x > y) ? x : y;
+    }
+
+    static byte max(byte x, byte y) {
+        return (x > y) ? x : y;
+    } 
 }
