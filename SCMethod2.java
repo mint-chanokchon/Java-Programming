@@ -2,7 +2,7 @@ public class SCMethod2 {
     public static void main(String[] args) {
         System.out.println(reverse(12345));
 
-        int[] a = {1, 2, 3, 4, 5};
+        int[] a = { 1, 2, 3, 4, 5 };
         int[] result = reverse(a);
         for (int i : result) {
             System.out.println(i);
@@ -24,7 +24,7 @@ public class SCMethod2 {
             rev = rev * 10 + n % 10;
             n = n / 10;
         }
-        
+
         return rev;
     }
 

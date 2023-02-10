@@ -1,0 +1,16 @@
+
+    # ทำให้ method สามารถรับ args เข้ามากี่ค่าก็ได้ แต่ต้องเป็นประเภทเดียวกัน
+    void show(int... x)
+
+    # สามารถเข้าถึง values ได้ด้วยการ loop
+    void show(int... x) {
+        for (int a: x) {
+            System.out.println(a);
+        }
+    }
+
+    show();
+    show(10);
+    show(10, 10);
+    show(10, 10, 10);
+    show(10, 10, 10, 10);
