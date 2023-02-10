@@ -13,10 +13,12 @@ public class SCArray2 {
             if (key == a[i]) {
                 System.out.println("Element found at    -> " + i);
                 System.exit(0);
+                sc.close();
             }
         }
 
         System.out.println("Not found");
+        sc.close();
 
     }
 }
