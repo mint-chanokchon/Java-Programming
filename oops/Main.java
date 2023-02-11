@@ -10,5 +10,6 @@ public class Main {
         BoxV2 boxV2 = new BoxV2(4, 10, 6);
         System.out.println(boxV2.volumn());
         System.out.println(boxV2.surfaceArea());
+        System.out.print(boxV2);
     }
 }

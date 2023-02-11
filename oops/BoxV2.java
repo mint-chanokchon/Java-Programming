@@ -15,7 +15,7 @@ public class BoxV2 {
         
     }
 
-    // getter setter
+    // setter
     public void setW(double w) {
         if (w > 0.0d) {
             this.w = w;
@@ -32,11 +32,22 @@ public class BoxV2 {
         this.d = d;
     }
 
+    // getter
+    public double getW() {
+        return this.w;
+    }
+
     public double volumn() {
         return w * h * d;
     }
 
     public double surfaceArea() {
         return (2.0 * w * h) + (2.0 * w * h) + (2.0 * d * h);
+    }
+
+    // ฬนภาษา Java ทุก ๆ class จะมี method toString ซึ่งอนุญาติให้เขียนทับได้
+    @Override // annotation เป็นส่วนที่บอกรายละเอียดเพิ่มเติมให้กับ Complier ของ code ถัดจากนี้
+    public String toString() {
+        return String.format("width= %.2f, height = %.2f, depth = %.2f", w, h, d);
     }
 }
