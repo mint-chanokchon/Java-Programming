@@ -1,0 +1,7 @@
+
+    # Type of properties
+        > Read & Writeable
+            - มี Getter, Setter
+        > Read Only
+            - มีแค่ Getter
+        > Write Only
