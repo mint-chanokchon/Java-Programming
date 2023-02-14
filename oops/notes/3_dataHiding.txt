@@ -1,0 +1,24 @@
+
+    # Data Hiding
+    เป็นการซ่อนข้อมูล
+    ลองจินตราการว่า เราไม่จำเป็นต้องเห็นข้อมูลที่อยู่ในกล่อง ๆ หนึ่ง
+    แต่เราสามารถทำงานกับข้อมูลตรงนั้นได้ด้วยฟังก์ชันต่าง ๆ ที่อยู่ด้านหน้ากล่อง
+
+    class Circle {
+        // field
+        private int radius;
+
+        // properties
+        int getRadius() {
+            return radius;
+        }
+
+        void setRadius(int r) {
+            this.radius = r;
+        }
+
+        // behavior
+        public double area() {
+            return Math.PI * Math.pow(radius, 2.0);
+        }
+    }
