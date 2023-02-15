@@ -1,0 +1,5 @@
+
+    # Contructor
+        - เป็น method แรกที่จะถูกเรียกใช้งานเมื่อมีการ new instance ขึ้นมา
+        - ถ้าเราไม่ได้กำหนด Contructor ของเราเอง Java Compiler จะทำการสร้าง Default Contructor ให้เอง
+        - Overloading Contructor

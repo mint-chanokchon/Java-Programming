@@ -4,6 +4,16 @@ public class Ragtangle {
     private double length;
     private double breadth;
 
+    public Ragtangle() {
+        this.length = 1;
+        this.breadth = 1;
+    }
+
+    public Ragtangle(double length, double breadth) {
+        this.length = length;
+        this.breadth = breadth;
+    }
+
     public double getLength() {
         return length;
     }
